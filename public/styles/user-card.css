@@ -75,7 +75,7 @@
   margin-block-start: -0.5rem;
 }
 
-.icon.icon-social-bsky {
+.icon.icon-social-bluesky {
   mask-image: url("/assets/social/bsky.svg");
   mask-size: cover;
 }
