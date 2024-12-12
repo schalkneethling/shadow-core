@@ -132,7 +132,8 @@ if (response.ok) {
      */
     async #loadCSS() {
       const style = document.createElement("style");
-      const response = await fetch("/styles/user-card.css");
+      const windowHref = window.location.href;
+      const response = await fetch(`${windowHref}styles/user-card.css`);
 
       if (response.ok) {
         style.textContent = await response.text();
